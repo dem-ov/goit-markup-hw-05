@@ -30,17 +30,17 @@
         <a class="logo-sait" href="./index.html"> <span style="color: #2196F3;">Web</span>Studio
         </a>
         <ul class="nav-item">
-          <li class="item"><a class="nav-item-text" href="./index.html">Студія</a></li>
-          <li class="item"><a class="nav-item-text" href="./portfolio.html">Портфоліо</a></li>
-          <li class="item"><a class="nav-item-text" href="#">Контакти</a></li>
+          <li class="item"><a class="nav-item-text current" href="./index.html">Студія</a></li>
+          <li class="item"><a class="nav-item-text " href="./portfolio.html">Портфоліо</a></li>
+          <li class="item"><a class="nav-item-text " href="#">Контакти</a></li>
         </ul>
 
         <ul class="conts">
 
           <li class="contacts-item">
 
-            <a class="contacts-text" href="mailto:info@devstudio.com">
-              <svg class="icon-heder wewr " Width="16" Height="12">
+            <a class="contacts-text " href="mailto:info@devstudio.com">
+              <svg class="icon-heder " Width="16" Height="12">
                 <use href="./img/symbol-defs.svg#icon-mail"></use>
               </svg>
 
@@ -51,7 +51,7 @@
           <li class="contacts-item">
 
             <a class="contacts-text" href="tel:+380961111111">
-              <svg class="icon-heder wewr " Width="10" Height="16">
+              <svg class=" wewr icon-heder " Width="10" Height="16">
                 <use href="./img/symbol-defs.svg#icon-tel"></use>
               </svg>
               +38 096 111 11 11
@@ -71,7 +71,7 @@
     <section class="hero-section">
       <div class="container">
         <h1 class="hero-text">Ефективні рішення для вашого бізнесу</h1>
-        <button class="main-batton" type="button">Замовити послугу</button>
+        <button class="main-batton" data-modal-open type="button">Замовити послугу</button>
       </div>
     </section>
 
@@ -144,19 +144,31 @@
 
           <li>
             <div class="product-thumb">
+
               <h2 class="decor-img">Десктопні додатки</h2>
               <img src="./img/web1.jpg" alt="Чим ми займаємося" width=370 height="294">
 
             </div>
-          </li>
-          <li><img src="./img/web2.jpg" alt="Чим ми займаємося" width=370 height="294"></li>
-          <li><img src="./img/web3.jpg" alt="Чим ми займаємося" width=370 height="294"></li>
 
+
+          </li>
+
+          <div class="product-thumb">
+            <h2 class="decor-img">Мобільні додатки</h2>
+            <li><img src="./img/web2.jpg" alt="Чим ми займаємося" width=370 height="294"></li>
+          </div>
+
+
+          <div class="product-thumb">
+
+            <h2 class="decor-img">Дизайнерські рішення</h2>
+            <li><img src="./img/web3.jpg" alt="Чим ми займаємося" width=370 height="294"></li>
+
+          </div>
 
         </ul>
       </div>
     </section>
-
 
     <!--Наша команда-->
 
@@ -318,53 +330,43 @@
           <li class="team-foto"><img src="./img/myxailo.jpg" alt="Наша команда" width="270" height="260">
             <p class="name-team">Михайло Єрмаков</p>
             <h3 class="team-professions">UI Designer</h3>
+            
             <ul class="team-socials">
+
               <li class="team-socials-item">
                 <a href="#" class="team-socials-link">
-
                   <svg class="team-socials-icon" width=20 height=20>
                     <use href="./img/symbol-social.svg#icon-instagram"></use>
                   </svg>
-
                 </a>
               </li>
 
               <li class="team-socials-item">
                 <a href="#" class="team-socials-link">
-
                   <svg class="team-socials-icon" width=20 height=20>
                     <use href="./img/symbol-social.svg#icon-twitter"></use>
                   </svg>
-
                 </a>
               </li>
 
               <li class="team-socials-item">
                 <a href="#" class="team-socials-link">
-
                   <svg class="team-socials-icon" width=20 height=20>
                     <use href="./img/symbol-social.svg#icon-facebook"></use>
                   </svg>
-
                 </a>
               </li>
 
               <li class="team-socials-item">
                 <a href="#" class="team-socials-link">
-
                   <svg class="team-socials-icon" width=20 height=20>
                     <use href="./img/symbol-social.svg#icon-linkedin"></use>
                   </svg>
-
                 </a>
               </li>
-
             </ul>
-
           </li>
         </div>
-
-
     </section>
 
 
@@ -375,16 +377,12 @@
 
         <ul class="clients-list">
 
-
-
           <li class="clients">
-
             <a class="clients-link" href="#" target="_blank">
               <svg class="icon-company" width="106" height="60">
                 <use href="./img/symbol-clients.svg#icon-Logo6"></use>
               </svg>
             </a>
-
           </li>
 
           <li class="clients">
@@ -426,9 +424,8 @@
               </svg>
             </a>
           </li>
+
         </ul>
-
-
       </div>
 
     </section>
@@ -437,12 +434,12 @@
     <!--footer-->
 
     <footer class="address">
+
+
       <div class="container">
         <div class="footer-socials">
           <div class="adress-items">
             <a class="logo-nav-address" href="./index.html"> <span style="color: #2196F3;">Web</span>Studio </a>
-
-
             <ul class="contacts">
               <li class="cont"><a class="cont-address-text" href="https://goo.gl/maps/hf1jpu9bbmZNbc6U8" target="_blank"
                   rel="noopener norreffer">м. Київ, пр-т Лесі
@@ -450,8 +447,6 @@
               <li class="cont"><a class="cont-mail-text" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
               <li class="cont"><a class="cont-tel-tex" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
-
-
           </div>
 
 
@@ -461,54 +456,54 @@
             <ul class="connect-list">
               <li class="connect-item">
                 <a href="#" class="connect-link">
-
                   <svg width=20 height=20>
                     <use href="./img/symbol-social.svg#icon-instagram"></use>
                   </svg>
-
                 </a>
               </li>
 
               <li class="connect-item">
                 <a href="#" class="connect-link">
-
                   <svg width=20 height=20>
                     <use href="./img/symbol-social.svg#icon-twitter"></use>
                   </svg>
-
                 </a>
               </li>
 
               <li class="connect-item">
                 <a href="#" class="connect-link">
-
                   <svg width=20 height=20>
                     <use href="./img/symbol-social.svg#icon-facebook"></use>
                   </svg>
-
                 </a>
               </li>
 
               <li class="connect-item">
                 <a href="#" class="connect-link">
-
                   <svg width=20 height=20>
                     <use href="./img/symbol-social.svg#icon-linkedin"></use>
                   </svg>
-
                 </a>
               </li>
-
-
             </ul>
-
-
           </div>
         </div>
 
+
+
     </footer>
 
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <buttom class="btn-modal-close" data-modal-close>
+          <svg class="modal-close-icon" width="18" height="18">
+            <use href="./img/symbol-features.svg#icon-close"></use>
+          </svg>
+        </buttom>
+      </div>
+    </div>
 
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
