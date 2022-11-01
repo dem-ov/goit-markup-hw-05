@@ -31,6 +31,7 @@ body {
   text-decoration: none;
 }
 .border {
+  width: 1600px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -79,7 +80,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  transition: cubic-bezier(0.4, 0, 0.2, 1), color 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-item-text.current {
@@ -136,7 +137,7 @@ body {
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--best-color4);
-  transition: cubic-bezier(0.4, 0, 0.2, 1), color 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 li.contacts-item {
@@ -148,7 +149,7 @@ li.contacts-item {
   display: flex;
   align-items: center;
   margin-right: 10px;
-  transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-text:hover {
@@ -165,6 +166,7 @@ li.contacts-item {
 
 .hero-section {
   background-repeat: no-repeat;
+  width: 1600px;
   background-color: #c4c4c4;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -176,11 +178,6 @@ li.contacts-item {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin: 0 auto;
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
 }
 
 .hero-text {
@@ -216,8 +213,9 @@ li.contacts-item {
   margin-top: 30px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms linear;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .main-batton:focus {
   border-radius: 4px;
   background-color: #188ce8;
@@ -236,6 +234,7 @@ li.contacts-item {
   list-style-type: none;
 }
 .peculiarities {
+  width: 1600px;
   padding-bottom: 94px;
   padding-top: 94px;
   display: block;
@@ -251,6 +250,7 @@ li.contacts-item {
   border-radius: 4px;
 }
 .What {
+  width: 1600px;
   padding-bottom: 94px;
 }
 .h3-text {
@@ -324,6 +324,7 @@ li.contacts-item {
 /* Наша команда*/
 
 .team {
+  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -449,6 +450,7 @@ li.contacts-item {
   margin-left: 8px;
 }
 .prodjects {
+  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -484,11 +486,11 @@ li.contacts-item {
   color: var(--best-color3);
   cursor: pointer;
   border: none;
-  transition: cubic-bezier(0.4, 0, 0.2, 1), color 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-batton {
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1), 250ms linear;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-batton:hover {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -507,10 +509,10 @@ li.contacts-item {
   gap: 30px;
 }
 .img-shad {
-  transition: cubic-bezier(0.4, 0, 0.2, 1), color 250ms linear;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .img-shad-top {
-  transition: box-shadow cubic-bezier(0.4, 0, 0.2, 1), 250ms linear;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   list-style-type: none;
   text-decoration: none;
   display: block;
@@ -625,6 +627,7 @@ li.contacts-item {
 /* постійнй кклієнти*/
 
 .ikn {
+  width: 1600px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -655,7 +658,8 @@ li.contacts-item {
   height: 92px;
 }
 .clients-link {
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1), 250ms linear;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:focus {
@@ -686,12 +690,12 @@ li.contacts-item {
   height: 100%;
   background-color: #ffffff;
   border-radius: 50%;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1), 250ms linear;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-socials-icon {
   fill: #afb1b8;
-  transition: fill cubic-bezier(0.4, 0, 0.2, 1), 250ms linear;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-socials-icon:hover {
@@ -715,6 +719,9 @@ li.contacts-item {
   align-items: baseline;
 }
 
+.address {
+  width: 1600px;
+}
 .adress-items {
   margin-right: 70px;
 }
@@ -742,7 +749,7 @@ li.contacts-item {
   display: flex;
   padding: 12px;
   margin: 0px;
-  transition: background-color cubic-bezier(0.4, 0, 0.2, 1), 250ms linear;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .connect-link:hover {
   background-color: #2196f3;
